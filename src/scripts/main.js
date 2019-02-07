@@ -1,3 +1,4 @@
+import {fillForm} from "./CreateForm.js"
 import { getOrders, getProducts, getSizes, createOrder } from "./DataManager.js"
 
 let sizes = []
@@ -19,4 +20,4 @@ getSizes().then(
         console.log(sizes)
     }
 )
-
+fillForm()
