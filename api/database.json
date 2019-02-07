@@ -1,0 +1,23 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Overpriced Bean Water"
+        }
+    ],
+    "sizes": [
+        {
+            "id": 1,
+            "size": "Mini"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "customerName": "Trevan",
+            "quantity": 2,
+            "productId": 1,
+            "sizeId": 1
+        }
+    ]
+}
